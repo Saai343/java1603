@@ -8,7 +8,7 @@ structure of method
 access_modifier return_type method_name(parameters) {
 */
 
-public class methods {
+class methods {
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
