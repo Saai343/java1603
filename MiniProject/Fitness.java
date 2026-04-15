@@ -3,7 +3,7 @@ package MiniProject;
 import java.util.*;
 
 abstract class Activity{
-    protected int duration; // minutes
+    protected int duration;
     public Activity(int duration){
         if(duration<=0){
             throw new IllegalArgumentException("Duration must be positive");
@@ -15,8 +15,7 @@ abstract class Activity{
 }
 
 class Running extends Activity{
-    private double speed; // km/h
-
+    private double speed;
     public Running(int duration,double speed){
         super(duration);
         if(speed<=0){
